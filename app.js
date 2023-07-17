@@ -11,11 +11,12 @@ for (let i = 0; i < numbers.length; i++) {
   card.className = "card";
   card.textContent = number;
 
-  if (i % 2 === 0) {
-    card.style.backgroundColor = "orangered";
-  } else {
-    card.style.backgroundColor = "midnightblue";
-  }
+  //   if (i % 2 === 0) {
+  //     card.style.backgroundColor = "orangered";
+  //   } else {
+  //     card.style.backgroundColor = "midnightblue";
+  //   }
 
+  card.classList.add(i % 2 === 0 ? "odd" : "even");
   box.appendChild(card);
 }

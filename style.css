@@ -14,3 +14,11 @@
   font-size: 30px;
   color: wheat;
 }
+
+.odd {
+  background-color: orangered;
+}
+
+.even {
+  background-color: midnightblue;
+}
